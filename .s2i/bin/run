@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Uruchamianie serwera HTTP dla aplikacji PHP
+exec /usr/libexec/s2i/run
