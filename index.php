@@ -1,6 +1,6 @@
 <?php
 $dir = 'images-app/';
-$images = glob($dir . '*.jpg');
+$images = glob($dir . '*.png');
 
 if (empty($images)) {
     echo 'Brak obrazków do wyświetlenia.';
