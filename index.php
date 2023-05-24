@@ -1,5 +1,5 @@
 <?php
-$dir = 'images-app/';
+$dir = 'images/';
 $images = glob($dir . '*.png');
 
 if (empty($images)) {
