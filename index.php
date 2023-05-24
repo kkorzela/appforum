@@ -2,7 +2,7 @@
 session_start();
 
 $dir = 'images/';
-$images = glob($dir . '*.jpg');
+$images = glob($dir . '*.png');
 
 if (empty($images)) {
     echo 'Brak obrazków do wyświetlenia.';
