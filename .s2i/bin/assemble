@@ -6,7 +6,8 @@ cp -Rf /tmp/src/* /opt/app-root/src/
 # Zainstaluj zależności PHP, jeśli są potrzebne
 
 # Przenoszenie plików statycznych, w tym obrazków, do katalogu docelowego w kontenerze
-cp -Rf /tmp/src/images /opt/app-root/src/
+mkdir -p /opt/app-root/src/images-app
+cp -Rf /tmp/src/images /opt/app-root/src/images-app
 
 # Zmiana właściciela katalogu na użytkownika apache
 chown -Rf 1001:0 /opt/app-root/src
